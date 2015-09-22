@@ -44,10 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseModel.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="GamePicture.cs" />
-    <Compile Include="GameVideo.cs" />
+    <Compile Include="AttachedFile.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Platform.cs" />
     <Compile Include="Price.cs" />

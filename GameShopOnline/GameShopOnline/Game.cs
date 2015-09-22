@@ -9,6 +9,12 @@ namespace GameShopOnline
     class Game : BaseModel
     {
         public string Name { get; set; }
-        
+        public Producer Producer { get; set; }
+        public Platform Platform { get; set; }
+        public Genre Genre { get; set;}
+        public Price Price { get; set; }
+        public AttachedFile Pictute { get; set; }
+        public AttachedFile URLVideo { get;  set;}
+        public Comment Comment { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameShopOnline
 {
-    class GameVideo : BaseModel
+    class AttachedFile : BaseModel
     {
         public string Link { get; set; }
     }

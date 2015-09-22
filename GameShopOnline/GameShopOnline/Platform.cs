@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GameShopOnline
-{
+{ //платформа (PS, Xbox)
     class Platform : BaseModel
     {
         public string GamePlatform { get; set; }

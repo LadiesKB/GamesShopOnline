@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GameShopOnline
-{
+{ //жанр игры 
     class Genre : BaseModel
     {
         public string GenreOfGame { get; set; }
