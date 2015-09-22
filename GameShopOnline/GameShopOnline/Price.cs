@@ -8,6 +8,6 @@ namespace GameShopOnline
 {
     class Price : BaseModel
     {
-        public double GamePrice { get; set; }
+        public double Value { get; set; }
     }
 }

@@ -8,6 +8,6 @@ namespace GameShopOnline
 { //жанр игры 
     class Genre : BaseModel
     {
-        public string GenreOfGame { get; set; }
+        public string Name { get; set; }
     }
 }

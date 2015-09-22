@@ -8,6 +8,6 @@ namespace GameShopOnline
 { // компания производеитель
     class Producer : BaseModel
     {
-        public string NameOfProducer { get; set; }
+        public string Name { get; set; }
     }
 }

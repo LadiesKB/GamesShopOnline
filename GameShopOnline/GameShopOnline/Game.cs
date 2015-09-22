@@ -15,6 +15,6 @@ namespace GameShopOnline
         public Price Price { get; set; }
         public AttachedFile Pictute { get; set; }
         public AttachedFile URLVideo { get;  set;}
-        public Comment Comment { get; set; }
+        public List<Comment> Comments { get; set; }
     }
 }

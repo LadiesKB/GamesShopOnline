@@ -8,6 +8,6 @@ namespace GameShopOnline
 { //платформа (PS, Xbox)
     class Platform : BaseModel
     {
-        public string GamePlatform { get; set; }
+        public string Name{ get; set; }
     }
 }
