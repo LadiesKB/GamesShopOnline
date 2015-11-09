@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameShopOnline
 { // компания производеитель
-    class Producer : BaseModel
+    public class Producer : BaseModel
     {
         public string Name { get; set; }
     }

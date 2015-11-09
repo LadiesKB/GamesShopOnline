@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameShopOnline
+namespace GameShopOnline.Services
 {
-    public class Comment : BaseModel
+    public interface PlatformService: IDomainService<Platform>
     {
-        public string UserComment { get; set; }
     }
 }

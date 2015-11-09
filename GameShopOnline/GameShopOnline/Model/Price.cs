@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameShopOnline
 {
-    class Price : BaseModel
+    public class Price : BaseModel
     {
         public double Value { get; set; }
     }

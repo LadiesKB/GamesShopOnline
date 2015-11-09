@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameShopOnline
+namespace GameShopOnline.Services
 {
-    public class Comment : BaseModel
+    public interface PriceService:IDomainService<Price>
     {
-        public string UserComment { get; set; }
+       
     }
 }

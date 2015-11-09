@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameShopOnline
 { //жанр игры 
-    class Genre : BaseModel
+    public class Genre : BaseModel
     {
         public string Name { get; set; }
     }

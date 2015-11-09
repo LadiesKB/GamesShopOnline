@@ -53,13 +53,20 @@
     <Compile Include="Model\Price.cs" />
     <Compile Include="Model\Producer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AttachedFileService.cs" />
+    <Compile Include="Services\ClientService.cs" />
+    <Compile Include="Services\CommentService.cs" />
+    <Compile Include="Services\GameService.cs" />
+    <Compile Include="Services\GenreService.cs" />
+    <Compile Include="Services\IDomainService.cs" />
+    <Compile Include="Services\PlatformService.cs" />
+    <Compile Include="Services\PriceService.cs" />
+    <Compile Include="Services\ProducerService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
