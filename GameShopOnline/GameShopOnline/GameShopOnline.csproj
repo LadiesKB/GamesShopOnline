@@ -43,19 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseModel.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="Comment.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="AttachedFile.cs" />
-    <Compile Include="Genre.cs" />
-    <Compile Include="Platform.cs" />
-    <Compile Include="Price.cs" />
-    <Compile Include="Producer.cs" />
+    <Compile Include="Model\BaseModel.cs" />
+    <Compile Include="Model\Client.cs" />
+    <Compile Include="Model\Comment.cs" />
+    <Compile Include="Model\Game.cs" />
+    <Compile Include="Model\AttachedFile.cs" />
+    <Compile Include="Model\Genre.cs" />
+    <Compile Include="Model\Platform.cs" />
+    <Compile Include="Model\Price.cs" />
+    <Compile Include="Model\Producer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
