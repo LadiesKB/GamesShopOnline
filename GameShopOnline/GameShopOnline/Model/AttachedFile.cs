@@ -9,5 +9,15 @@ namespace GameShopOnline
     public class AttachedFile : BaseModel
     {
         public string Link { get; set; }
+
+        public override object Clone()
+        {
+            return new AttachedFile
+            {
+                Id = this.Id,
+                Link = this.Link
+
+            };
+        }
     }
 }

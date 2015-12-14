@@ -9,5 +9,14 @@ namespace GameShopOnline
     public class Genre : BaseModel
     {
         public string Name { get; set; }
+
+        public override object Clone()
+        {
+            return new Genre
+            {
+                Id = this.Id,
+                Name = this.Name
+            };
+        }
     }
 }

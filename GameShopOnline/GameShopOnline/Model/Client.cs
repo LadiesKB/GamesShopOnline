@@ -12,5 +12,17 @@ namespace GameShopOnline
         public string SurName { get; set; }
         public string Mail { get; set; }
         public List<Game> Games { get; set; }
+
+        public override object Clone()
+        {
+            return new Client
+            {
+                Id = this.Id,
+                Name = this.Name,
+                SurName = this.SurName,
+                Mail =this.Mail
+
+            };
+        }
     }
 }

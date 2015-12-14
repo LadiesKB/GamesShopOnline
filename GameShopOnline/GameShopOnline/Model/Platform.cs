@@ -9,5 +9,14 @@ namespace GameShopOnline
     public class Platform : BaseModel
     {
         public string Name{ get; set; }
+
+        public override object Clone()
+        {
+            return new Platform
+            {
+                Id = this.Id,
+                Name = this.Name
+            };
+        }
     }
 }

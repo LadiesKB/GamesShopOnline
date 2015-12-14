@@ -9,5 +9,14 @@ namespace GameShopOnline
     public class Producer : BaseModel
     {
         public string Name { get; set; }
+
+        public override object Clone()
+        {
+            return new Producer
+            {
+                Id = this.Id,
+                Name = this.Name
+            };
+        }
     }
 }

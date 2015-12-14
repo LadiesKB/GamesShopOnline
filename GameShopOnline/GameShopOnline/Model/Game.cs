@@ -22,8 +22,13 @@ namespace GameShopOnline
             return new Game
             {
                 Id = this.Id,
-                Name = this.Name
-
+                Name = this.Name,
+                Producer = this.Producer,
+                Platform = this.Platform,
+                Genre = this.Genre,
+                Price = this.Price,
+                Pictute = this.Pictute,
+                URLVideo=this.URLVideo
             };
         }
     }
