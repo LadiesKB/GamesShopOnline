@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameShopOnline.Services
 {
-    public interface PlatformService: IDomainService<Platform>
+    public interface IDPriceService:IDomainService<Price>
     {
+       
     }
 }

@@ -2,7 +2,7 @@
 
 namespace GameShopOnline.Services
 {
-    public interface CommentService: IDomainService<Comment>
+    public interface IDCommentService: IDomainService<Comment>
     {
         
 

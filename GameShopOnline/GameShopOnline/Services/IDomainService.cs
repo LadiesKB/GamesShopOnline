@@ -12,7 +12,7 @@ namespace GameShopOnline.Services
 
         T Get(int id);
 
-        List<T> Det();
+        List<T> Get();
 
         T Update(T entity);
 

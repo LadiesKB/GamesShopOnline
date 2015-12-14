@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace GameShopOnline
 {
-    public abstract class BaseModel
+    public abstract class BaseModel :ICloneable
+
     {
         public int Id { get; set; }
+
+        public abstract object Clone();
+        
     }
 }

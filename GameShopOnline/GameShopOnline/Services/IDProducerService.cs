@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameShopOnline.Services
 {
-    public interface GenreService: IDomainService<Genre>
+    public interface IDProducerService: IDomainService<Producer>
     {
+        
     }
 }
