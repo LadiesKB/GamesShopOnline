@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E747597E-D9EB-432B-A832-611B2BEDA034}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GameShopOnlineDomainServicesStatic</RootNamespace>
     <AssemblyName>GameShopOnlineDomainServicesStatic</AssemblyName>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseService.cs" />
+    <Compile Include="AttachedFileService.cs" />
+    <Compile Include="AttachedFileServiceAsync.cs" />
+    <Compile Include="ClientService.cs" />
+    <Compile Include="ClientServiceAsync.cs" />
+    <Compile Include="CommentService.cs" />
+    <Compile Include="CommentServiceAsync.cs" />
+    <Compile Include="Common\AuditManager.cs" />
+    <Compile Include="Common\DomainService.cs" />
+    <Compile Include="Common\DomainServiceAsync.cs" />
     <Compile Include="GameService.cs" />
+    <Compile Include="GameServiceAsync.cs" />
+    <Compile Include="GenreService.cs" />
+    <Compile Include="GenreServiceAsync.cs" />
+    <Compile Include="PlatformService.cs" />
+    <Compile Include="PlatformServiceAsync.cs" />
+    <Compile Include="PriceService.cs" />
+    <Compile Include="PriceServiceAsync.cs" />
+    <Compile Include="ProducerService.cs" />
+    <Compile Include="ProducerServiceAsync.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
